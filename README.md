@@ -21,7 +21,6 @@ This means *BYOD* (bring your own device) is impossible, if the customer should 
 Apple has indeed a page that compares the different memberships. It's clearly stated, but not easy to find.
 It's located here: https://developer.apple.com/support/compare-memberships/
 
-
 ## Debugging iOS applications
 
 If you ever tried to debug the application on a real device, and not a simulator, I bet you've encountered the following error message:
@@ -36,3 +35,21 @@ While this behavior is totally comprehensible, because the end-user shouldn't be
 
 If you google the error message, you end up visiting a page on Stack Overflow, where the answer has more than 630 upvotes. Maybe Apple can introduce a better error message in the future...  
 You can find the question with the answer here: https://stackoverflow.com/q/11601304/1902598
+
+## Difference between the seller and developer name.
+
+The are two types of names the end user will see in the App Store.  
+1. The developer name
+2. The seller name
+
+**They can be different!**  
+
+### Seller name
+The *seller* name is the name of the legal entity that was registered as a developer. It's displayed in the detail page of the App Store as the *Developer* in the *Information* list. Confusing is that the seller name is displayed as the *developer* in the *Information* list. It used to be *Seller* in the past, accroding to screenshots.
+
+### Developer name
+The *developer* name can be customized **once**, when you initially create the app. It's displayed under the app name, right at the top in the search and the detail page.
+
+#### More information
+
+There is of course a Stack Overflow question with answer (here: https://stackoverflow.com/q/23738192/1902598) and the iTunes Connect Developer Guide has a page for *Identifying Your App in iTunes Connect* here: https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/FirstSteps.html
