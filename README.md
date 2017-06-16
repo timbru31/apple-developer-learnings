@@ -48,7 +48,7 @@ The are two types of names the end user will see in the App Store.
 The *seller* name is the name of the legal entity that was registered as a developer. It's displayed in the detail page of the App Store as the *Developer* in the *Information* list. Confusing is that the seller name is displayed as the *developer* in the *Information* list. It used to be *Seller* in the past, accroding to screenshots.
 
 ### Developer name
-The *developer* name can be customized **once**, when you initially create the app. It's displayed under the app name, right at the top in the search and the detail page.
+The *developer* name can be customized **once**, when you initially create the **very first** app. It's displayed under the app name, right at the top in the search and the detail page.
 
 #### More information
 
@@ -69,7 +69,7 @@ after clicking the iTunes Connect button from the Developer Portal.
 #### More information
 
 The *Learn more* link does not work. Don't bother following it.  
-Instead the solutuon is stated on Stack Overflow, as always: https://stackoverflow.com/q/28867975/1902598
+Instead the solution is stated on Stack Overflow, as always: https://stackoverflow.com/q/28867975/1902598
 
 ## Signing with one account, uploading to another account
 
