@@ -53,3 +53,32 @@ The *developer* name can be customized **once**, when you initially create the a
 #### More information
 
 There is of course a Stack Overflow question with answer (here: https://stackoverflow.com/q/23738192/1902598) and the iTunes Connect Developer Guide has a page for *Identifying Your App in iTunes Connect* here: https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/FirstSteps.html
+
+## VPP requires a new Apple ID
+
+You can't *upgrade* or *enable* an existing Apple ID for the VPP (Volume Purchase Program) in order to download purchased apps or receive custom B2B apps. It requires a new Apple ID. The best thing to do is: Let the VPP admin invite users. Then they create the correct type of Apple ID.
+
+## iTunes Connect ❗️= Apple Developer membership
+
+It's not enough to be part of the Apple Developer account. Being a member does not grant you access to iTunes Connect. **You need to be invited separately**, otherwise you receive the unobvious error message
+
+> Your Apple ID isn't enabled for iTunes Connect. Learn More
+
+after clicking the iTunes Connect button from the Developer Portal.
+
+#### More information
+
+The *Learn more* link does not work. Don't bother following it.  
+Instead the solutuon is stated on Stack Overflow, as always: https://stackoverflow.com/q/28867975/1902598
+
+## Signing with one account, uploading to another account
+
+tbd
+
+## VPP requires a "Paid Applications contract"
+
+tbd
+
+## You can't delete apps from iTunes Connect
+
+tbd
