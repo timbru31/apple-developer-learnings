@@ -82,3 +82,8 @@ tbd
 ## You can't delete apps from iTunes Connect
 
 tbd
+
+## Launching an app from Xcode to a newer iOS version
+
+This is not possible. It requires a Xcode version which supports this iOS Version.  
+This means that you mostly need to update your Xcode installation or install the current Xcode beta, too. Happy downloading of another 5GB Xcode .zip file!
