@@ -87,3 +87,10 @@ tbd
 
 This is not possible. It requires a Xcode version which supports this iOS Version.  
 This means that you mostly need to update your Xcode installation or install the current Xcode beta, too. Happy downloading of another 5GB Xcode .zip file!
+
+## iTunes opens every time a device is connected
+
+This feature can be very annoying. Everytime you attach a device via cable the iTunes process hijacks the window.  
+Luckily this can be disabled in iTunes. Follow these steps:
+
+> Open iTunes -> Preferences -> Devices -> Check "Prevent iPods, iPhones, and iPads from syncing automatically"
