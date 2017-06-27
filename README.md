@@ -94,3 +94,5 @@ This feature can be very annoying. Everytime you attach a device via cable the i
 Luckily this can be disabled in iTunes. Follow these steps:
 
 > Open iTunes -> Preferences -> Devices -> Check "Prevent iPods, iPhones, and iPads from syncing automatically"
+
+![iTunes sync image](images/itunes_sync.png)
