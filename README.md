@@ -71,17 +71,17 @@ after clicking the iTunes Connect button from the Developer Portal.
 The *Learn more* link does not work. Don't bother following it.  
 Instead the solution is stated on Stack Overflow, as always: https://stackoverflow.com/q/28867975/1902598
 
-## Signing with one account, uploading to another account
+## Building and signing with one account but uploading to another account
 
-tbd
+While we were granted access to the customers organisation account, I can not tell you if it's possible to build/sign the app via the *account A*, but upload it with the customers *account b*. If you know more, please tell me  I'm eager to know.
 
 ## VPP requires a "Paid Applications contract"
 
-tbd
+Nevertheless if you plan to charge money for your app, a B2B app requires that you (correctly: the iTunes Connect admin) has signed a so called *Paid Applications contract*, where you need to fill in a lot of legal information and a bank connection where potential money should be paid to. Be prepared to ask your legal department a lot of information!
 
 ## You can't delete apps from iTunes Connect
 
-tbd
+Once a, we called it internally, *App skeleton* has been created, you can not remove it from the iTunes connect store, but only remove it from sale later. Be careful to not produce too much junk!
 
 ## Launching an app from Xcode to a newer iOS version
 
