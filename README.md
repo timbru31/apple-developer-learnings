@@ -96,3 +96,14 @@ Luckily this can be disabled in iTunes. Follow these steps:
 > Open iTunes -> Preferences -> Devices -> Check "Prevent iPods, iPhones, and iPads from syncing automatically"
 
 ![iTunes sync image](images/itunes_sync.png)
+
+## App installation failed even though it should succeed
+
+When you hit the play button and made changes to the app (e.g. changed the *Bundle Identifier*, you might be greeted by the following error message:
+
+>App installation failed
+
+>This application's application-identifier entitlement does not match that of the installed application. These values must match for an upgrade to be allowed.
+
+It seems like Xcode is not picking up the changed Display Name nor Bundle Identifier sometimes.  
+Solutin: Click into the text fields and maybe add a space and remove it again, i.e. refresh the field. Then hit the play button again.
