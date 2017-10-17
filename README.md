@@ -13,7 +13,7 @@ Apple differentiates three types of developer accounts for business (excluding e
 * Organizations
 * Enterprise Program
 
-The most important thing: **Enterprise accounts can not publish in the App Store**. They can only distribute via In-house App Distribution.  
+The most important thing: **Enterprise accounts cannot publish in the App Store**. They can only distribute via In-house App Distribution.  
 This means *BYOD* (bring your own device) is impossible, if the customer should be able to download the app from the App Store.
 
 #### More information
@@ -38,14 +38,14 @@ You can find the question with the answer here: https://stackoverflow.com/q/1160
 
 ## Difference between the seller and developer name.
 
-The are two types of names the end user will see in the App Store.  
+There are two types of names the end user will see in the App Store.  
 1. The developer name
 2. The seller name
 
-**They can be different!**  
+**They can be different!**
 
 ### Seller name
-The *seller* name is the name of the legal entity that was registered as a developer. It's displayed in the detail page of the App Store as the *Developer* in the *Information* list. Confusing is that the seller name is displayed as the *developer* in the *Information* list. It used to be *Seller* in the past, accroding to screenshots.
+The *seller* name is the name of the legal entity that was registered as a developer. It's displayed in the detail page of the App Store as the *Developer* in the *Information* list. Confusing is that the seller name is displayed as the *developer* in the *Information* list. It used to be *Seller* in the past, according to screenshots.
 
 ### Developer name
 The *developer* name can be customized **once**, when you initially create the **very first** app. It's displayed under the app name, right at the top in the search and the detail page.
@@ -73,24 +73,25 @@ Instead the solution is stated on Stack Overflow, as always: https://stackoverfl
 
 ## Building and signing with one account but uploading to another account
 
-While we were granted access to the customers organisation account, I can not tell you if it's possible to build/sign the app via the *account A*, but upload it with the customers *account b*. If you know more, please tell me  I'm eager to know.
+While we were granted access to the customers organization account, I cannot tell you if it's possible to build/sign the app via the *account A*, but upload it with the customer's *account b*. If you know more, please tell me - I'm eager to know.
 
 ## VPP requires a "Paid Applications contract"
 
-Nevertheless if you plan to charge money for your app, a B2B app requires that you (correctly: the iTunes Connect admin) has signed a so called *Paid Applications contract*, where you need to fill in a lot of legal information and a bank connection where potential money should be paid to. Be prepared to ask your legal department a lot of information!
+Even if you don't plan to charge money for your app, a B2B app requires that you (correctly: the iTunes Connect admin) has signed a so called *Paid Applications contract*, where you need to fill in a lot of legal information and a bank connection where potential money should be paid to. Be prepared to ask your legal department a lot of information!
 
 ## You can't delete apps from iTunes Connect
 
-Once a, we called it internally, *App skeleton* has been created, you can not remove it from the iTunes connect store, but only remove it from sale later. Be careful to not produce too much junk!
+Once a, we called it internally, *App skeleton* has been created, you cannot remove it from the iTunes connect store, but only remove it from sale later. Be careful to not produce too much junk!
 
 ## Launching an app from Xcode to a newer iOS version
 
 This is not possible. It requires a Xcode version which supports this iOS Version.  
-This means that you mostly need to update your Xcode installation or install the current Xcode beta, too. Happy downloading of another 5GB Xcode .zip file!
+This means that you need to update your Xcode installation or install the current Xcode beta, too.  
+Have fun downloading >5GB again!
 
 ## iTunes opens every time a device is connected
 
-This feature can be very annoying. Everytime you attach a device via cable the iTunes process hijacks the window.  
+This feature can be very annoying. Every time you attach a device via cable the iTunes process hijacks the window.  
 Luckily this can be disabled in iTunes. Follow these steps:
 
 > Open iTunes -> Preferences -> Devices -> Check "Prevent iPods, iPhones, and iPads from syncing automatically"
@@ -105,5 +106,5 @@ When you hit the play button and made changes to the app (e.g. changed the *Bund
 
 >This application's application-identifier entitlement does not match that of the installed application. These values must match for an upgrade to be allowed.
 
-It seems like Xcode is not picking up the changed Display Name nor Bundle Identifier sometimes.  
-Solutin: Click into the text fields and maybe add a space and remove it again, i.e. refresh the field. Then hit the play button again.
+It seems like Xcode is not picking up the changed *Display Name* nor *Bundle Identifier* sometimes.  
+Solution: Click into the text fields and maybe add a space and remove it again, i.e. refresh the field. Then hit the play button again.
