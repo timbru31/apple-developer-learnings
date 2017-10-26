@@ -108,3 +108,18 @@ When you hit the play button and made changes to the app (e.g. changed the *Bund
 
 It seems like Xcode is not picking up the changed *Display Name* nor *Bundle Identifier* sometimes.  
 Solution: Click into the text fields and maybe add a space and remove it again, i.e. refresh the field. Then hit the play button again.
+
+## The organizer disappeared!
+
+When you accidentally close the *Organizer* (the window that opens once you *archived* your app in order to upload it to iTunes Connect) you might find yourself searching for it.  
+Luckily you can easily open it again:
+> Window -> Organizer
+
+## iTunes Connect refuses apps that are uploaded from Xcode Beta versions
+
+While you might need a Beta of Xcode in order to deploy to iOS Beta devices, the thumb rule is: **never deploy with a Xcode Beta to iTunes Connect!**
+
+Otherwise you will be greeted by an error message like this:
+
+> New apps and app updates must be built with the public (GM) versions of Xcode 6 or later, macOS, and iOS SDK. Don't submit apps built with beta software including beta macOS builds.
+> Invalid sdk value. The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in MyApp.app/MyApp is 11.1 which is greater than the maximum allowed value of 11.0.
