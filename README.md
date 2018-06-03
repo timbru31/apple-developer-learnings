@@ -123,3 +123,18 @@ Otherwise you will be greeted by an error message like this:
 
 > New apps and app updates must be built with the public (GM) versions of Xcode 6 or later, macOS, and iOS SDK. Don't submit apps built with beta software including beta macOS builds.
 > Invalid sdk value. The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in MyApp.app/MyApp is 11.1 which is greater than the maximum allowed value of 11.0.
+
+## Using encryption and the legal implications
+
+We decided to add encryption (via WebCrypto, but under the hood it uses WebKit/Apple's _standard_ method for encryption and decryption). When deploying a new update via iTunes Connect, there is this little radio button with a text like this *have you recently added or made changes to the encryption functionality of the app?*  
+Um, yes, we have. **This is where the fun party begins!** Since technically every download of an app from the App Store is an export from the U.S. and encryption is considered a weapon (see [Wikipedia for more information](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States)), you need to meet the export compliance of the U.S. *Bureau of Industry and Security* (BIS). This means you need to fill out a *Self Classification Report* and mail it to the BIS and **yes** a NSA e-mail address. Howly cow, what is going on in the U.S.?  
+In the end we decided that our customer has to fill out the report, since the iTunes Connect entity is their legal business entity.  
+Neverthelss you just need to e-mail a CSV with one line to the BIS and NSA - this is doable :)
+
+You might find these links interesting and helpful regarding the BIS report:
+* https://help.apple.com/itunes-connect/developer/#/devc3f64248f
+* https://www.bis.doc.gov/index.php/policy-guidance/encryption/4-reports-and-reviews/a-annual-self-classification (especially the sample report at the bottom!)
+* http://simonfairbairn.com/bis-year-end-self-classification-report/
+* https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=1&SID=4150cfbf028e9a85574385383a581f47&h=L&mc=true&n=pt15.2.742&r=PART&ty=HTML#ap15.2.742_119.6
+
+Fun fact (and :wave: @S2 Swipe! ;)) - our specialized mobile app development agency has never filled out this report. Still doubt that you every made any apps without any encryption feature, but this is not my :beer:
