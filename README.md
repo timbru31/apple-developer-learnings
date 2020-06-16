@@ -144,3 +144,15 @@ You might find these links interesting and helpful regarding the BIS report:
 - https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=1&SID=4150cfbf028e9a85574385383a581f47&h=L&mc=true&n=pt15.2.742&r=PART&ty=HTML#ap15.2.742_119.6
 
 Fun fact (and :wave: @S2 Swipe! ;)) - our specialized mobile app development agency has never filled out this report. Still doubt that you made every app without any encryption feature(s), but this is not my :beer:
+
+## B2B Apps are broken in multiple ways
+
+In 2019 Apple rejected our app update due to violating the App Store Review Guideline [3.2 Other Business Model Issues](https://developer.apple.com/app-store/review/guidelines/#other-business-model-issues). They've said that our app is a custom B2B app and is not suited for the general App Store. Our complaint that other companies such as [Uber Driver](https://apps.apple.com/us/app/uber-driver/id1131342792), [MOIA Operations](https://apps.apple.com/de/app/moia-driver-f%C3%BCr-fahrer/id1353379863) and many others offer apps without a registration was rejected.  
+Feels pretty bad, simply because we were not "big enough" so they could pull this move - but others were allowed and remained in the store event after I've reported them.
+
+After switching to the Business Manager and providing the app via invite codes, the following App Store bugs are present and not fixed in >1 year:
+
+1. The App description, although required to be filled in, won't be displayed - it just shows the "Can't connect to the App Store".
+2. Updates are not shown if the app is downloaded via family sharing.
+3. You can't deeplink via `itms-apps://itunes.apple.com/app/id12345` - it just shows that it's not available in your region.
+4. There is no way to view the app in full screen, only the popover window works.
