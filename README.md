@@ -152,7 +152,7 @@ Feels pretty bad, simply because we were not "big enough" so they could pull thi
 
 After switching to the Business Manager and providing the app via invite codes, the following App Store bugs are present and not fixed in >1 year:
 
-1. The App description, although required to be filled in, won't be displayed - it just shows the "Can't connect to the App Store".
-2. Updates are not shown if the app is downloaded via family sharing.
-3. You can't deeplink via `itms-apps://itunes.apple.com/app/id12345` - it just shows that it's not available in your region.
+1. The App description, although required to be filled in, won't be displayed - it just shows the "Can't connect to the App Store". ([rdar://FB7187666](https://openradar.appspot.com/radar?id=4961411889364992))
+2. Updates are not shown if the app is downloaded via family sharing. ([rdar://FB7602643](https://openradar.appspot.com/radar?id=4978564545904640))
+3. You can't deeplink via `itms-apps://itunes.apple.com/app/id12345` - it just shows that it's not available in your region. ([rdar://FB7739134](https://openradar.appspot.com/radar?id=5039408495460352))
 4. There is no way to view the app in full screen, only the popover window works.
